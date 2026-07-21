@@ -1,10 +1,10 @@
 package core.basesyntax;
 
-public class Rectangle extends Figure{
+public class Rectangle extends Figure {
     private int firstLeg;
     private int secondLeg;
 
-    public Rectangle(int secondLeg , int firstLeg , String color) {
+    public Rectangle(int firstLeg, int secondLeg, String color) {
         super(color);
         this.firstLeg = firstLeg;
         this.secondLeg = secondLeg;
