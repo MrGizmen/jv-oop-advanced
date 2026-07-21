@@ -1,7 +1,7 @@
 package core.basesyntax;
 
 public class Main {
-    public static void main(String[] Args) {
+    public static void main(String[] args) {
         FigureSupplier figure = new FigureSupplier();
 
         Figure[] figures = new Figure[5];
